@@ -3,7 +3,7 @@
 
 This is a fully functional and responsive E-commerce frontend built by me using **React.js**, **Redux**, and **Bootstrap**. It allows users to browse products, add items to a shopping cart, and view totals dynamically.
 
-🔗 **Live Demo**: [https://reactjs-ecommerce-app.vercel.app](https://reactjs-ecommerce-app.vercel.app)
+
 
 ---
 
@@ -34,15 +34,12 @@ npm start
 
 * **React.js** – for UI components and structure
 * **Redux** – to manage global state (cart system)
-* **Bootstrap 5** – for layout and styling
+* **css** – for layout and styling
 * **React Router** – for routing between pages
 
 ---
 
- 📷 Screenshots
-
-![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
-
+ 
 ---
 
  🙌 Author
