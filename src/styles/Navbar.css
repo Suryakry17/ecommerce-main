@@ -1,0 +1,81 @@
+/* Main Navbar */
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Inner Content */
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Brand */
+.navbar-brand .brand-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+}
+
+/* Center Menu */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  flex: 1;
+}
+
+.navbar-menu .nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu .nav-link:hover {
+  color: #007bff;
+}
+
+/* Right Buttons */
+.navbar-buttons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.btn-nav {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.95rem;
+  border: 2px solid #333;
+  background-color: transparent;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.btn-nav:hover {
+  background-color: #333;
+  color: #fff;
+}
+.navbar-content {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
